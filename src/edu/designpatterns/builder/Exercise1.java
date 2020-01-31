@@ -1,9 +1,9 @@
 package edu.designpatterns.builder;
 
-public class Main {
+public class Exercise1 {
 
     public static void main(String[] args) {
-        CodeBuilder cb = new CodeBuilder("edu.designpatterns.factory.Person")
+        CodeBuilder cb = new CodeBuilder("Person")
                 .addField("name", "String")
                 .addField("age", "int");
         System.out.println(cb);

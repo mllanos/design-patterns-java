@@ -1,6 +1,6 @@
 package edu.designpatterns.factory;
 
-public class Main {
+public class Exercise2 {
 
     public static void main(String[] args) {
         PersonFactory pf1 = new PersonFactory();
